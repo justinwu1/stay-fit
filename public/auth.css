@@ -1,0 +1,23 @@
+.section1{
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    flex-grow: 1;
+    box-shadow:0 0 5px rgba(0,0,0,0.3);
+    width:500px;
+    height:900px;
+    margin:240px;
+}
+
+form{
+    margin-top:20%;
+}
+#form{
+    margin-top:50px;
+}
+
+button{
+    margin-top:40px;
+    margin-left:50px;
+}
+

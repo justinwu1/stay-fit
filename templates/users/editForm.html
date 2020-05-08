@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../public/users.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Stayfit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/daily-calorie">Daily Calorie </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/user">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="display-4 mt-5 mr-5">Edit the Nutrients</h1>
+        <form method="POST" class = "w-50">
+            <div id="form">
+                <div class="form-group">
+                    <label><strong>Food Name</strong></label>
+                    <input name="food" type="text" class="form-control border-dark" >
+                </div>
+                <div class="form-group">
+                    <label><strong>Grams</strong></label>
+                    <input type="number" class="form-control border-dark" name="grams" >
+                </div>
+                <div class="form-group">
+                    <label><strong>Calories </strong></label>
+                    <input type="number" class="form-control border-dark" name="calories" >
+                </div>
+                <div class="form-group">
+                    <label><strong>Carbonhydrates</strong></label>
+                    <input type="number" class="form-control border-dark" name="carbonhydrates" >
+                </div>
+                <div class="form-group">
+                    <label><strong>Protein</strong></label>
+                    <input type="number" class="form-control border-dark" name="proteins" >
+                </div>
+                <div class="form-group">
+                    <label><strong>Fats</strong></label>
+                    <input type="number" class="form-control border-dark" name="fats" >
+                </div>
+                <div class="form-group">
+                    <label class="text-info"><strong>How many Gram did you Consume</strong></label>
+                    <input type="number" class="form-control border-dark" name="gramConsumed">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-info btn-lg float-right">Add</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.header{
+    background:url("./images/pebble.jpg");
+}
+.lead{
+    margin-bottom: 40px;
+    color:#fff;
+    font-weight:300;
+    opacity: .8;
+    line-height: 35px;
+}

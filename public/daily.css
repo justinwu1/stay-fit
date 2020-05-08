@@ -1,0 +1,34 @@
+.section1{
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    flex-grow: 1;
+    box-shadow:0 0 5px rgba(0,0,0,0.3);
+    width:500px;
+    height:900px;
+    margin-top:50px;
+    margin-left:100px;
+}
+.list-group{
+    margin:110px;
+    width:500px;
+}
+.section2{
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    flex-grow: 1;
+    margin-top:50px;
+    margin-right:50px;
+    padding:10px;
+}
+
+#form{
+    margin-top:50px;
+}
+
+#addButton{
+    margin-top:40px;
+    margin-left:50px;
+}
+

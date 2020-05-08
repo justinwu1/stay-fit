@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../public/daily.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Stayfit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Profile <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container float-left">
+        <div class="section1">
+            <form method = "POST">
+                <h3 class="text-center">One Click</h3>
+                <hr>
+                </hr>
+                <div id="form">
+                    <div class="form-group">
+                        <label><strong>Food Name</strong></label>
+                        <input name="food" type="text" class="form-control border-dark" placeholder="Bananas" required>
+                    </div>
+                    <div class="form-group">
+                        <label><strong>Grams</strong></label>
+                        <input type="number" class="form-control border-dark" name="grams" placeholder="100g" required>
+                    </div>
+                    <div class="form-group">
+                        <label><strong>Calories </strong></label>
+                        <input type="number" class="form-control border-dark" name="calories" placeholder="93Cal" required>
+                    </div>
+                    <div class="form-group">
+                        <label><strong>Carbonhydrates</strong></label>
+                        <input type="number" class="form-control border-dark" name="carbonhydrates" placeholder="22g Carb" required>
+                    </div>
+                    <div class="form-group">
+                        <label><strong>Protein</strong></label>
+                        <input type="number" class="form-control border-dark" name="proteins" placeholder="1.40g Protein" required>
+                    </div>
+                    <div class="form-group">
+                        <label><strong>Fats</strong></label>
+                        <input type="number" class="form-control border-dark" name="fats" placeholder="0.20g Fats" required>
+                    </div>
+                    <div class="form-group">
+                        <label class = "text-info"><strong>How many Gram did you Consume</strong></label>
+                        <input type="number" class="form-control border-dark" name="gramConsumed" placeholder="85g" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-info btn-lg float-right">Add</button>
+            </form>
+        </div>
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-info">Daily Info</li>
+                <li class = "list-group-item">Current Calories</li>
+                <li class="list-group-item">Carbonhydrates</li>
+                <li class="list-group-item">Protein</li>
+                <li class="list-group-item">Fats</li>
+              </ul>
+        </div>
+    </div>
+    
+    <div class="section2">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Food</th>
+                    <th scope="col">Calories</th>
+                    <th scope="col">Carbonhydrates</th>
+                    <th scope="col">Protein</th>
+                    <th scope="col">Fats</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>

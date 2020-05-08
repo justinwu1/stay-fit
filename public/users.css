@@ -1,0 +1,34 @@
+.container{
+    width:700px;
+}
+a{
+    color:#fff;
+}
+.list-group{
+    margin:100px;
+}
+input{
+    margin-right:10px;
+}
+input[type=text] {
+    border:1px solid #17a2b8;
+}
+.section1{
+    width:70%;
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    flex-grow: 1;
+    margin:100px;
+    padding:10px;
+}
+table{
+    font-size: large;
+    margin-left:30%;
+}
+form{
+    margin:30px;
+}
+#clearAllBtn{
+    margin-right:27%;
+}
